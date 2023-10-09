@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-08T11:40:10.947Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="44NXWPTA7sLYK5MEElWt" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T10:17:58.117Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="0_oyrhwvx69rKrMln1r9" version="22.0.4" type="github">
   <diagram name="Page-1" id="dyy4JHxhdrdSeSU1JlN6">
-    <mxGraphModel dx="1034" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,6 +86,9 @@
         </mxCell>
         <mxCell id="KFL26OVG4pfI2ZvZVbae-65" value="Lambda Function to push text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="330" y="18" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KFL26OVG4pfI2ZvZVbae-66" value="&lt;div&gt;AWS Lambda functions are triggered to ingest data from various social media APIs.&lt;/div&gt;&lt;div&gt;Kinesis captures and loads real-time streaming data.&lt;/div&gt;&lt;div&gt;Amazon S3 stores raw social media data in various languages.&lt;/div&gt;&lt;div&gt;AWS Translate converts the social media content from various languages to English.&lt;/div&gt;&lt;div&gt;Amazon Comprehend analyzes the translated text, extracting insights, entities, key phrases, sentiments, or relationships.&lt;/div&gt;&lt;div&gt;DynamoDB stores structured, analyzed, and translated data for quick retrieval.&lt;/div&gt;&lt;div&gt;Redshift houses data for analytics and business intelligence, providing a platform for complex queries and analysis.&lt;/div&gt;&lt;div&gt;Athena runs ad-hoc queries on the data stored in Redshift and Dynamodb.&lt;/div&gt;&lt;div&gt;QuickSight creates visualizations and BI dashboards based on the analyzed and queried data.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="480" width="660" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
